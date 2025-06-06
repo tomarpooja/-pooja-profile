@@ -17,10 +17,11 @@ body {
 }
 
 .avatar {
-  width: 150px;      /* Set a fixed width you like */
-  height: auto;      /* Keeps aspect ratio so it doesn’t stretch */
-  border-radius: 50%; /* Optional: makes the image circular */
-  object-fit: cover;  /* Crop image nicely if needed */
+  width: 150px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 
