@@ -17,12 +17,12 @@ body {
 }
 
 .avatar {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 20px;
+  width: 150px;      /* Set a fixed width you like */
+  height: auto;      /* Keeps aspect ratio so it doesn’t stretch */
+  border-radius: 50%; /* Optional: makes the image circular */
+  object-fit: cover;  /* Crop image nicely if needed */
 }
+
 
 h1 {
   margin: 0;
